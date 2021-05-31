@@ -1,7 +1,7 @@
 function adicionarFilme() {
     var campoFilmeFavorito = document.querySelector('#filme')
     var filmeFavorito = campoFilmeFavorito.value
-    if (filmeFavorito.endsWith('.jpg')) {
+    if (filmeFavorito.endsWith('.png')) {
         listarFilmesNaTela(filmeFavorito)
     } else {
         alert("Imagem inválida")
